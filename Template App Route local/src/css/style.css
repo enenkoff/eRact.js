@@ -1,0 +1,60 @@
+
+/*--------------------------------reset CSS--------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration:none;
+    color: inherit;
+}
+table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+    font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 500;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:inherit;
+}
+q:before,q:after {content:'';}
+abbr,acronym { border: 0;}
+button {cursor: pointer}
+
+/*--------------------------------general CSS--------------------------------*/
+
+html,body {
+    font-size:14px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #182026;
+}
+body, input, textarea, button {font-family: 'Roboto', sans-serif;}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
